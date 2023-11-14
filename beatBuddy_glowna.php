@@ -9,7 +9,9 @@
 <body>
 <div class ="background">
   <div class ="srodek">
-  <div class= "napis"> BeatBuddy </div>
+  <div class= "logo"> BeatBuddy </div>
+ 
+   <p class="suwak1">20<input type="range" id ="suwak" name="slider" min="20" max="50" step="1" value="50">50</div></p>
   </div>
  </div>
 
