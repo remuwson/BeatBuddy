@@ -57,11 +57,16 @@
 }
 #suwak{
 	margin-left: 20px;
-	margin-top: 200px;
+	
 	width: 200px;
 	margin-right: 20px;
 }
 .suwak1{
 	color:white;
 	margin-left: 350px;
+}
+.opis1{
+	color:white;
+	margin-top:200px;
+	text-align: center;
 }
