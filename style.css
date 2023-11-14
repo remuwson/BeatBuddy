@@ -49,9 +49,19 @@
 	float: left;
 	border-radius: 20px;
 }
-.napis{
+.logo{
 	text-align: center;
 	color: white;
 	margin-top: 20px;
 	font-size: 30px;
+}
+#suwak{
+	margin-left: 20px;
+	margin-top: 200px;
+	width: 200px;
+	margin-right: 20px;
+}
+.suwak1{
+	color:white;
+	margin-left: 350px;
 }
