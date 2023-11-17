@@ -63,10 +63,21 @@
 }
 .suwak1{
 	color:white;
-	margin-left: 350px;
+	margin-left: 40%;
 }
 .opis1{
 	color:white;
 	margin-top:200px;
 	text-align: center;
+}
+#sliderValue{
+	margin-top: -35px;
+	color:white;
+	margin-left:77%;
+	float: left;
+}
+.napis_do_suwaka{
+	color: white;
+	margin-top:-70px;
+	margin-left:70%;
 }
