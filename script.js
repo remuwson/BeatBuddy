@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var slider = document.getElementById('mySlider');
-    var sliderValue = document.getElementById('slider-value');
+    var slider = document.getElementById('suwak');
+    var sliderValue = document.getElementById('sliderValue');
   
     // Funkcja aktualizująca wartość nad suwakiem
     function updateSliderValue() {
