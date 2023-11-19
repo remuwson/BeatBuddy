@@ -3,8 +3,8 @@
         text_2.addEventListener('input', function () {
             output_2.textContent = `Grubość Bordera : ${text_2.value}px`;
         });
-		var slider = document.getElementById("suwak");
-    var output = document.getElementById("sliderValue");
+		let slider = document.getElementById("suwak");
+    let output = document.getElementById("sliderValue");
 
     // Zaktualizuj wartość przy każdej zmianie suwaka
     slider.addEventListener("input", function() {
