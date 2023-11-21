@@ -49,9 +49,10 @@
 	float: left;
 	border-radius: 20px;
 }
-.logo{
-	text-align: center;
-	color: white;
+.logo(usunac ten napis){
+	background: url(logobeatbuddy3.jpg);
+	width: 200px;
+	height: 400px;
 	margin-top: 20px;
 	font-size: 30px;
 }
@@ -63,7 +64,7 @@
 }
 .suwak1{
 	color:white;
-	margin-left: 40%;
+	margin-left: 37%;
 }
 .opis1{
 	color:white;
@@ -71,14 +72,13 @@
 	text-align: center;
 }
 #sliderValue{
-	margin-top: -35px;
+	margin-top: -34px;
 	color:white;
-	margin-left:77%;
+	margin-left:78%;
 	float: left;
 }
 .napis_do_suwaka{
 	color: white;
-	margin-top:-70px;
-	margin-left:70%;
-	float: left;
+	margin-top:-35px;
+	margin-left:67%;
 }
