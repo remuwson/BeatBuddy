@@ -1,4 +1,4 @@
-.pole{
+/*.pole{
 	width: 200px;
 	height: 200px;
 	border: 3px solid #00FF00;
@@ -14,15 +14,14 @@
 	margin-top: 40px;
 	margin-left: 60%;
 	border-radius: 15px;
-}
-.background{
-	width: 100%;
+}*/
+body{
+	width: 100% ;
 	background-color: black;
-	height:645px;
-	float: left;
-	border: 1px solid black;
+	margin: 0;
+	padding: 0;
 }
-.pole2{
+/*.pole2{
 	width: 200px;
 	height: 200px;
 	border: 3px solid #00FF00;
@@ -39,21 +38,24 @@
 	margin-left: 60%;
 	border-radius: 15px;
 	
-}
+}*/
 .srodek{
 	width: 75%;
-	height: 90%;
-	border: 5px solid #00FF00;
-	margin-left: 200px;
-	margin-top: 30px;
+	height: 600px;
+	border: 6px solid transparent;
+	position: relative;
+    animation: animateFrame 2s linear infinite;
+	margin-left: 12%;
+	margin-top: 9%;
 	float: left;
 	border-radius: 20px;
+	box-sizing: border-box;
 }
 /* .logo(usunac ten napis){
 	background: url(logobeatbuddy3.jpg);
 	width: 200px;
 	height: 400px;
-	margin-top: 20px;
+	margin-top: 20px; #00FF00
 	font-size: 30px;
 }*/
 #suwak{
@@ -82,3 +84,14 @@
 	margin-top:-35px;
 	margin-left:67%;
 }
+@keyframes animateFrame {
+	0% {
+	  border-color: #d0e562; /* Początkowy kolor ramki */
+	}
+	65% {
+	  border-color: #898952; /* Końcowy kolor ramki */
+	}
+	100% {
+		border-color: #d0e562; /* Początkowy kolor ramki */
+	  }
+  }
