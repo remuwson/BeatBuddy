@@ -17,10 +17,11 @@
 }*/
 body{
 	width: 100% ;
-	background-color: black;
+	background-color: grey;
 	margin: 0;
 	padding: 0;
 }
+
 /*.pole2{
 	width: 200px;
 	height: 200px;
@@ -51,13 +52,31 @@ body{
 	border-radius: 20px;
 	box-sizing: border-box;
 }
-/* .logo(usunac ten napis){
-	background: url(logobeatbuddy3.jpg);
-	width: 200px;
-	height: 400px;
-	margin-top: 20px; #00FF00
-	font-size: 30px;
-}*/
+@keyframes animateFrame {
+	0% {
+	  border-color: #d0e562; /* Początkowy kolor ramki */
+	}
+	65% {
+	  border-color: #898952; /* Końcowy kolor ramki */
+	}
+	100% {
+		border-color: #d0e562; /* Początkowy kolor ramki */
+	  }
+  }
+header{
+	height: 200px;
+	width: 30%;
+	
+	justify-content: center;
+	padding-left: 37%;
+}
+  .logo{
+	width: 400px;
+	height: auto;
+	vertical-align: middle;
+	float: left;
+	margin-top: -20%;
+}
 #suwak{
 	margin-left: 20px;
 	
@@ -73,25 +92,16 @@ body{
 	margin-top:200px;
 	text-align: center;
 }
-#sliderValue{
-	margin-top: -34px;
-	color:white;
-	margin-left:78%;
-	float: left;
-}
+
 .napis_do_suwaka{
 	color: white;
-	margin-top:-35px;
-	margin-left:67%;
+	margin-top: -34px;
+	margin-left:60%;
+	float: left;
+	
+}#sliderValue{
+	margin-top: -17px;
+	color:white;
+	margin-left:88%;
+	float: left;
 }
-@keyframes animateFrame {
-	0% {
-	  border-color: #d0e562; /* Początkowy kolor ramki */
-	}
-	65% {
-	  border-color: #898952; /* Końcowy kolor ramki */
-	}
-	100% {
-		border-color: #d0e562; /* Początkowy kolor ramki */
-	  }
-  }
