@@ -16,7 +16,6 @@
 	border-radius: 15px;
 }*/
 body{
-	width: 100% ;
 	background-color: grey;
 	margin: 0;
 	padding: 0;
@@ -40,18 +39,19 @@ body{
 	border-radius: 15px;
 	
 }*/
-.srodek{
+.srodek {
 	width: 75%;
 	height: 600px;
 	border: 6px solid transparent;
 	position: relative;
-    animation: animateFrame 2s linear infinite;
+	animation: animateFrame 2s linear infinite;
 	margin-left: 12%;
 	margin-top: 9%;
-	float: left;
 	border-radius: 20px;
 	box-sizing: border-box;
-}
+	display: flex;
+	padding-top: 220px; 
+  }
 @keyframes animateFrame {
 	0% {
 	  border-color: #d0e562; /* Początkowy kolor ramki */
@@ -63,45 +63,36 @@ body{
 		border-color: #d0e562; /* Początkowy kolor ramki */
 	  }
   }
-header{
+  header {
+	width: 100%; 
 	height: 200px;
-	width: 30%;
-	
+	display: flex;
 	justify-content: center;
-	padding-left: 37%;
-}
-  .logo{
+	align-items: center;
+	box-sizing: border-box;
+	position: fixed;
+	margin-top: -220px;
+	margin-left: -250px;
+  }
+.logo {
 	width: 400px;
 	height: auto;
-	vertical-align: middle;
-	float: left;
-	margin-top: -20%;
-}
+	margin-top: 0; 
+  }
+  
 #suwak{
 	margin-left: 20px;
 	
 	width: 200px;
 	margin-right: 20px;
 }
-.suwak1{
-	color:white;
-	margin-left: 37%;
-}
-.opis1{
-	color:white;
-	margin-top:200px;
-	text-align: center;
-}
-
-.napis_do_suwaka{
-	color: white;
-	margin-top: -34px;
-	margin-left:60%;
-	float: left;
-	
-}#sliderValue{
-	margin-top: -17px;
-	color:white;
-	margin-left:88%;
-	float: left;
+.suwak1,
+.opis1,
+.napis_do_suwaka,
+#sliderValue {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
 }
